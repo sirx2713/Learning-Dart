@@ -1,16 +1,9 @@
 void main() {
-  var myAge = 27;
-  var myName = "Alexander";
-  var x = 26;
-  var y = 10;
+  var x = 1;
+  var y = 1;
 
-  if (x > y) {
-    print("© iSAD");
-    print("I am " + myName + ".");
-    print(x);
-  } else if (y > x) {
-    print("© iSAD");
-    print("I am " + myName + ".");
-    print(y);
+  while (x <= 10) {
+    print(x * y);
+    x++;
   }
 }
