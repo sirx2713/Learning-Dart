@@ -1,10 +1,16 @@
 void main() {
   var myAge = 27;
   var myName = "Alexander";
-  var x = 6;
+  var x = 26;
   var y = 10;
 
-  print("© iSAD");
-  print("I am " + myName + ".");
-  print(x + y);
+  if (x > y) {
+    print("© iSAD");
+    print("I am " + myName + ".");
+    print(x);
+  } else if (y > x) {
+    print("© iSAD");
+    print("I am " + myName + ".");
+    print(y);
+  }
 }
